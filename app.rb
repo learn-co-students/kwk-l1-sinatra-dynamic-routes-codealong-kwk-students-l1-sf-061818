@@ -14,5 +14,8 @@ class App < Sinatra::Base
   end
 
   # Code your final two routes here:
-
+get '/goodbye/:name,a
+"Goodbye, (jerome)."
+localhost:9394/goodbye/jerome 
 end
+end 
